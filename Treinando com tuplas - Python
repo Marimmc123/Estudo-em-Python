@@ -1,0 +1,32 @@
+#comparar celular
+
+#estrutura de tuple, onde eu consigo guardar todos esses dados da minha estrutura chamada aparelho
+aparelho = ("Iphone 12", "Sansung S21", "Nokia 2280")
+
+#consigo fazer:
+
+#printa a estrutura toda
+print(aparelho)
+#printa somente o iphone
+print(aparelho[0])
+#printar todos os itens, 1 de cada vez, looping for
+for aparelhos in aparelho:
+    print(aparelho)
+
+#mostra quantos aparelhos tem dentro da minha tuple
+print(len(aparelho))
+
+#verificar se determinada item faz parte da minha estrutura
+if "Iphone 12" in aparelho:
+    print("Achei")
+else:
+    print("Não achei")
+
+#não consigo fazer
+#modificar um item
+#aparelho[0] = "Iphone 10"
+#adicionar um item
+#aparelho.append("Galaxy 10")
+#remover item
+#aparelho.pop()
+
