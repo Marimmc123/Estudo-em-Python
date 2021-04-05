@@ -1,0 +1,35 @@
+import json
+
+#criando uma estrutura de dicionario para depois salvar em json
+contato = {
+    "Clark Kent":{
+        "celular":"1234",
+        "e-mail":"kent@gmail.com"
+
+    },
+    "Bruce Wayne":{
+        "Celular":"4321",
+        "e-mail":"wayne@gmail.com"
+    }
+}
+#indent=4 formata para ficar mais legivel
+contato_json = json.dumps(contato, indent=4) #transf em string
+print(contato_json)
+#print(type(contato_json))
+
+with open("agenda.json","w", encoding="uft8") as arquivo:
+    arquivo.write(contato_json)
+    
+    
+    #importamos os para conseguirmos usar recurso do sistema operacional, como por exepmplo busca um caminho
+import os
+import json
+#a linha abaixo constroi o caminho para o arquivo atual(star_wars_data.py) e anexando a subpasta files e o nome do arquivo json
+caminho = "{}\\files\\star_wars.jason".format(os.path.dirname(__file__))
+#print(local)
+
+#abrindo arquivo
+with open(caminho, "r", encoding="uft8") as arquivo:
+    conteudo = arquivo.readlines()
+print(type(conteudo))
+dados = json.loads(conteudo)
