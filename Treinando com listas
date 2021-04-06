@@ -1,0 +1,25 @@
+#LISTA
+aparelhos = ["Iphone 12", "Sansung S21", "Nokia2280"]
+
+#consigo fazer:
+#exibir a lista
+print(aparelhos)
+#exibir item - exibirá o segundo item da lista
+print(aparelhos[1])
+#exibir todos os itens separadamente
+for aparelho in aparelhos:
+    print(aparelho)
+
+#ver o tamanhdo
+print(len(aparelhos))
+#ver se o item está na lista
+print("Iphone 12" in aparelhos)
+
+#modificar um item - substituir
+aparelhos[0]="Iphone 7"
+#adicionar item no final
+aparelhos.append("Galaxy S10")
+#adicionar item em uma posição específica
+aparelhos.insert(1,"Baby Startak")
+
+print(aparelhos)
