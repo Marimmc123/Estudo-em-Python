@@ -1,0 +1,35 @@
+print("programa calculadora")
+
+valor1 = float(input('digite o primeiro valor'))
+valor2 = int(input('digite o segundo valor'))
+
+#operação matemática dos dos valores
+
+print(type(valor1))
+soma = valor1 + valor2
+
+print("a soma entre os dois valores é {}".format(soma))
+
+print(type(valor1))
+
+#subtração -
+valor3 = float(input('digite o primeiro valor'))
+valor4 = int(input('digite o segundo valor'))
+#operação matemática dos dos valores
+subtracao = valor3 - valor4
+print("a subtração entre os dois é {}".format(subtracao))
+
+#multiplicação *
+valor5 = float(input('digite o primeiro valor'))
+valor6 = int(input('digite o segundo valor'))
+
+#operação matemática dos dos valores
+multiplicacao = valor5 * valor6
+print("a multiplicação entre os dois é {}".format(multiplicacao))
+
+#divisão /
+valor7 = float(input('digite o primeiro valor'))
+valor8 = int(input('digite o segundo valor'))
+#operação matemática dos dos valores
+divisao = valor7 / valor8
+print("a divisão entre os dois é {}".format(divisao))
