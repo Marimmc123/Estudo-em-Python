@@ -1,0 +1,8 @@
+print("Mariana")
+#comando que permite interagir
+nome = input("Digite seu nome aqui")
+#print("Fulano, você é incrível")
+#quero exibir o nome que foi colocado no input
+#a linha a abaixo exibe uma msg com conteúdo
+print("{}, você é incrível".format(nome))
+#print(nome +"você é incrível")
