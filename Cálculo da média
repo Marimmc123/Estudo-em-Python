@@ -1,0 +1,10 @@
+#Faça um programa que seja capaz de receber do usuário a DISTÂNCIA de uma viagem
+# e o TEMPO em que essa viagem aconteceu.
+# O programa deve exibir, no final, a velocidade média
+
+distancia = float(input("digite a distancia da viagem"))
+tempo = float(input("digite o tempo da viagem"))
+
+velocidade_media = distancia / tempo
+
+print("para a distancia {}Km e o tempo {}Minutos a velocidade media é {}".format(distancia,tempo,velocidade_media))
